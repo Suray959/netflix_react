@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(3, 3, 3,0.45);
+    background-color:rgb(3, 3, 3,0.145);
     
 }
 
@@ -22,7 +22,8 @@
     align-items: center;
 }
 
-.title {
+.title a {
+    text-decoration: none;
     margin-right: 1000px;
     font-size: 40px; 
     font-family: 'Bebas Neue', sans-serif;
@@ -38,13 +39,16 @@
     width: 150px;
     height: 30px;
     padding-left: 50px; 
-    background-image: url(https://cdn-icons-png.flaticon.com/128/1375/1375510.png);
+    background-color: rgb(246, 242, 242,0.277);
+    background-image: 
+    url(https://cdn-icons-png.flaticon.com/128/1375/1375510.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: 10px center;
     border: 0px;
     border-radius: 5px;
     font-family: 'Bebas Neue', sans-serif;
+    color: white;
 }
 .select button{
     margin-left: 35px;

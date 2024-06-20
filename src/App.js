@@ -14,9 +14,9 @@ function App() {
      <Layout>
       <Routes></Routes>
          <Header />
-        <Cinema />
         <Routes>
           <Route path='/sign' element={<Sign/>}/>
+          <Route path='/cinema' element={<Cinema/>}/>
         </Routes>
         </Layout>
  </Router>
