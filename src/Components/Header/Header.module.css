@@ -1,0 +1,61 @@
+@font-face {
+    font-display: optional;
+    font-family: 'Netflix Sans';
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format("woff2"),
+         url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format("woff");
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(3, 3, 3,0.45);
+    
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    margin-right: 1000px;
+    font-size: 40px; 
+    font-family: 'Bebas Neue', sans-serif;
+    color: #E50914;
+    letter-spacing: 10px;
+}
+
+.select {
+    margin-left: -150px;
+}
+
+.select select {
+    width: 150px;
+    height: 30px;
+    padding-left: 50px; 
+    background-image: url(https://cdn-icons-png.flaticon.com/128/1375/1375510.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px center;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.select button{
+    margin-left: 35px;
+    width: 100px;
+    height: 30px;
+    background-color: #E50914;
+    border: 0;
+    border-radius: 5px;
+}
+.select button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Netflix Sans', sans-serif;
+}

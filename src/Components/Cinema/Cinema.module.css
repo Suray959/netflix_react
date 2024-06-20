@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.section h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 150px;
+}
+.section p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.read{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 450px;
+    margin-top: -155px;
+}
+.read h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 150px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.email label {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.5rem;
+    color:rgb(10, 10, 10);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+}
+
+.email input {
+   
+    width: 20%;
+    height: 40px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 5px 4px 10px;
+   
+}
+
+.email button{
+    margin-left: 50px;
+    background-color: #E50914;
+    width: 250px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
+}
