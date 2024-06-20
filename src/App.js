@@ -18,7 +18,7 @@ function App() {
       <Routes></Routes>
         <Routes>
           <Route path='/sign' element={<Sign/>}/>
-          <Route path='/cinema' element={<Cinema/>}/>
+          <Route path='/' element={<Cinema/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/homeheader' element={<HomeHeader/>}/>
         </Routes>
