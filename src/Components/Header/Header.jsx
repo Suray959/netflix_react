@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className={style.container}>
       <div className={style.headline}>
-        <h2 className={style.title}><Link to={'/cinema'}>Netflix</Link></h2>
+        <h2 className={style.title}><Link to={'/'}>Netflix</Link></h2>
         <div className={style.select}>
           <select>
             <option value="en">English</option>
