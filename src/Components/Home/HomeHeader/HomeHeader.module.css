@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.head {
+    display: flex;
+    padding: 5px;
+    background-color: rgba(113, 107, 107, 0.181); 
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon img {
+    width: 40px;
+    margin-top: 10px;
+  }
+  .list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: white;
+  }
+  .list li {
+    list-style: none;
+    font-family: Montserrat;
+  
+  }
+  .search{
+    display: flex;
+    flex-direction: row;
+    margin-left: 750px;
+    margin-top: 15px;
+    gap: 0;
+}
+.search input{
+  width: 150px;
+  height: 25px;
+  border: 0;
+  border-radius: 5px;
+}
+  .user img{
+    width: 30px;
+    height: 25px;
+    margin-left: 20px;
+  }

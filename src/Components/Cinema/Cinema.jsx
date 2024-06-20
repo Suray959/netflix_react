@@ -1,9 +1,12 @@
 import React from 'react'
 import style from '../Cinema/Cinema.module.css'
+import Header from '../Header/Header'
+import { Link } from 'react-router-dom'
 
 function Cinema() {
   return (
     <div>
+          <Header />
        <div className={style.section}>
           <h1>Unlimited movies, TV shows, and more</h1>
           <p>Watch anywhere. Cancel anytime.</p>
@@ -13,7 +16,7 @@ function Cinema() {
         <div className={style.email}>
         <label >Email adress</label>
         <input type="email"  />
-        <button>Get Started  &gt;</button>
+        <button><Link to={'/home'}>Get Started  &gt;</Link> </button>
         </div>
       
 
