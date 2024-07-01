@@ -9,6 +9,7 @@ import Layout from '../src/./Components/Layout/Layout';
 import Home from '../src/Components/Home/Main/Home'
 import Slider from "react-slick";
 
+
 function App() {
   return (
     <div className="App">
